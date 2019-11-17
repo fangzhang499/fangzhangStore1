@@ -1,0 +1,122 @@
+.weekly_content .weekly_top {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  padding: 40px;
+  border: 1px solid #ccc;
+}
+.weekly_content .weekly_top .test-name span,
+.weekly_content .weekly_top .test-title span,
+.weekly_content .weekly_top .problem-ques span {
+  display: inline-block;
+}
+.weekly_content .weekly_top .test-name span:nth-child(1),
+.weekly_content .weekly_top .test-title span:nth-child(1),
+.weekly_content .weekly_top .problem-ques span:nth-child(1) {
+  color: red;
+}
+.weekly_content .weekly_top .test-name .name,
+.weekly_content .weekly_top .test-name .title,
+.weekly_content .weekly_top .test-title .name,
+.weekly_content .weekly_top .test-title .title,
+.weekly_content .weekly_top .problem-ques .name,
+.weekly_content .weekly_top .problem-ques .title {
+  width: 130px;
+  background: #ccc;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: none;
+}
+.weekly_content .weekly_top .test-name .ant-input,
+.weekly_content .weekly_top .test-title .ant-input,
+.weekly_content .weekly_top .problem-ques .ant-input {
+  display: inline-block;
+  width: 400px;
+}
+.weekly_content .weekly_top .test-name,
+.weekly_content .weekly_top .test-title {
+  margin-bottom: 10px;
+}
+.weekly_content .weekly_top .test-title .title {
+  background: #fff;
+  font-size: 12px;
+  color: #e0d8d8 !important;
+  box-shadow: 0 0 2px 0 #c4bebe;
+}
+.weekly_content .weekly_top .problem-ques {
+  position: relative;
+  padding-left: 70px;
+}
+.weekly_content .weekly_top .problem-ques span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.weekly_content .weekly_top .button_comp {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.weekly_content .weekly_top .button_comp div {
+  float: left;
+  background: #7ab9f5;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.weekly_content .weekly_top .button_comp .button_comp_l {
+  margin-right: 20%;
+  margin-left: 10px;
+}
+.weekly_content .weekly_top .button_comp .button_comp_r {
+  background: #d6cece;
+}
+.weekly_content .weekly_top .button_comp .button_comp_l:hover {
+  box-shadow: 0 0 0 5px #58c inset;
+  cursor: pointer;
+}
+.weekly_content .weekly_top .button_comp .button_comp_r:hover {
+  box-shadow: 0 0 0 5px #a39d9d inset;
+  cursor: pointer;
+}
+.weekly_content .weekly_buttom {
+  margin-top: 40px;
+  border: 1px solid #ccc;
+}
+.weekly_content .weekly_buttom .Table {
+  width: 1127px;
+}
+.weekly_content .weekly_buttom .Table thead {
+  display: block;
+  background: #ece8e8;
+  height: 40px;
+  width: 1127px;
+  box-shadow: 0 0 10px 10px #afa9a9 inset;
+}
+.weekly_content .weekly_buttom .Table thead th {
+  padding-left: 10px;
+  line-height: 40px;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+.weekly_content .weekly_buttom .Table tbody {
+  display: block;
+  width: 1127px;
+}
+.weekly_content .weekly_buttom .Table tbody tr {
+  width: 1127px;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.weekly_content .weekly_buttom .Table tbody tr td {
+  padding-left: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+.weekly_content .weekly_buttom .Table tbody tr:last-child {
+  border: none;
+}

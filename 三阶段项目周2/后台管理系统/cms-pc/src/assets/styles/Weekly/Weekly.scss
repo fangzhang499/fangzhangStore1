@@ -1,0 +1,122 @@
+.weekly_content{
+    .weekly_top{
+        border: 1px solid #ccc;
+        margin-top: 20px;
+        padding: 40px;
+        border: 1px solid #CCC;
+        .test-name,
+        .test-title,
+        .problem-ques{
+            span{
+                display: inline-block;
+            }
+            span:nth-child(1){
+                color: red;
+            }
+            .name,
+            .title{
+                width: 130px;
+                background: #ccc;
+                height: 30px;
+                color: #fff;
+                line-height: 30px;
+                font-size: 16px;
+                padding-left: 10px;
+                border: none;
+            }
+            .ant-input{
+                display: inline-block;
+                width: 400px;
+            }
+        }
+        .test-name,
+        .test-title{
+            margin-bottom: 10px;
+        }
+        .test-title{
+            .title{
+                background: #fff;
+                font-size: 12px;
+                color: rgb(224, 216, 216) !important;
+                box-shadow: 0 0 2px 0 rgb(196, 190, 190);
+            }
+        }
+        .problem-ques{
+            position: relative;
+            padding-left: 70px;
+            span{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+        .button_comp{
+            margin-top: 20px;
+            margin-left: 60px;
+            div{
+                float: left;
+                background: #7ab9f5;
+                border-radius: 5px;
+                color: #fff;
+                padding: 5px 10px;
+                box-sizing: border-box;
+            }
+            .button_comp_l{
+                margin-right: 20%;
+                margin-left: 10px;
+            }
+            .button_comp_r{
+                background: rgb(214, 206, 206);
+            }
+            .button_comp_l:hover{
+                box-shadow: 0 0 0 5px #58c inset;
+                cursor: pointer;
+            }
+            .button_comp_r:hover{
+                box-shadow: 0 0 0 5px rgb(163, 157, 157) inset;
+                cursor: pointer;
+            }
+        }
+    }
+    .weekly_buttom{
+        margin-top: 40px;
+        border: 1px solid #ccc;
+        .Table{
+            width: 1127px;
+            thead{
+                display: block;
+                background: rgb(236, 232, 232);
+                height: 40px;
+                width: 1127px;
+                box-shadow: 0 0 10px 10px rgb(175, 169, 169) inset;
+
+                th{
+                    padding-left: 10px;
+                    line-height: 40px;
+                    box-sizing: border-box;
+                    border-right: 1px solid #ccc;
+                }
+            }
+            tbody{
+                // height: 40px;
+                display: block;
+                width: 1127px;
+                tr{
+                    width: 1127px;
+                    height: 40px;
+                    border-bottom: 1px solid #ccc;
+                    box-sizing: border-box;
+                    td{
+                        padding-left: 10px;
+                        font-size: 12px;
+                        box-sizing: border-box;
+                        border-right: 1px solid #ccc;
+                    }
+                }
+                tr:last-child{
+                   border: none;
+                }
+            }
+        }
+    }
+}

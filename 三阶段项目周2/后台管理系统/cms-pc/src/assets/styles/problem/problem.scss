@@ -1,0 +1,68 @@
+.problem_content{
+    border: 1px solid #ccc;
+    padding: 20px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    .test-name,
+    .problem-ques{
+        span{
+            display: inline-block;
+        }
+        span:nth-child(1){
+            color: red;
+        }
+        .name{
+            width: 130px;
+            background: #ccc;
+            height: 30px;
+            color: #fff;
+            line-height: 30px;
+            font-size: 16px;
+            padding-left: 10px;
+        }
+        .ant-input{
+            display: inline-block;
+            width: 400px;
+        }
+    }
+    .test-name{
+        margin-bottom: 10px;
+    }
+    .problem-ques{
+        position: relative;
+        padding-left: 70px;
+        span{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .button_comp{
+        margin-top: 20px;
+        margin-left: 60px;
+        div{
+            float: left;
+            background: #7ab9f5;
+            border-radius: 5px;
+            color: #fff;
+            padding: 5px 10px;
+            box-sizing: border-box;
+        }
+        .button_comp_l{
+            margin-right: 20%;
+            margin-left: 10px;
+        }
+        .button_comp_r{
+            background: rgb(214, 206, 206);
+        }
+        .button_comp_l:hover{
+            box-shadow: 0 0 0 5px #58c inset;
+            cursor: pointer;
+        }
+        .button_comp_r:hover{
+            box-shadow: 0 0 0 5px rgb(163, 157, 157) inset;
+            cursor: pointer;
+        }
+    }
+}

@@ -5,7 +5,13 @@ import {
     Switch,
     Route,
     Link
-} from "react-router-dom"
+} from "react-router-dom";
+import Complaint from '../../components/Complaint/Complaint';
+import Problem from '../../components/Problem/Problem';
+import Itemupload from '../../components/Itemupload/Itemupload';
+import Stuvip from '../../components/Stuvip/Stuvip';
+import WeeklyTable from '../../components/Weekly/Weekly';
+import Index from '../../components/Index/Index';
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
@@ -28,12 +34,12 @@ const Acontent = () => {
 </span>
                         }
                     >
-                        <Menu.Item key="1"><Link to="/nav1/content1">匿名投诉</Link></Menu.Item>
-                        <Menu.Item key="2"><Link to="/nav1/content2">技术问题</Link></Menu.Item>
-                        <Menu.Item key="3"><Link to="/nav1/content3">项目上传</Link></Menu.Item>
-                        <Menu.Item key="4"><Link to="/nav1/content4">VIP</Link></Menu.Item>
-                        <Menu.Item key="5"><Link to="/nav1/content5">学员周报</Link></Menu.Item>
-                        <Menu.Item key="6"><Link to="/nav1/content6">我的资料</Link></Menu.Item>
+                        <Menu.Item key="1"><Link to="/nav1/Complaint">匿名投诉</Link></Menu.Item>
+                        <Menu.Item key="2"><Link to="/nav1/Problem">技术问题</Link></Menu.Item>
+                        <Menu.Item key="3"><Link to="/nav1/Itemupload">项目上传</Link></Menu.Item>
+                        <Menu.Item key="4"><Link to="/nav1/Stuvip">VIP</Link></Menu.Item>
+                        <Menu.Item key="5"><Link to="/nav1/WeeklyTable">学员周报</Link></Menu.Item>
+                        <Menu.Item key="6"><Link to="/nav1/Index">我的资料</Link></Menu.Item>
                         <Menu.Item key="7"><Link to="/nav1/content7">交费明细</Link></Menu.Item>
                         <Menu.Item key="8"><Link to="/nav1/content8">参加考试</Link></Menu.Item>
                         <Menu.Item key="9"><Link to="/nav1/content9">学员评价</Link></Menu.Item>
@@ -69,23 +75,23 @@ const Acontent = () => {
                     }}
                 >
                     <Switch>
-                        <Route path='/nav1/content1'>
-                            <div>  内容1</div>
+                        <Route path='/nav1/Complaint'>
+                            <Complaint />
                         </Route>
-                        <Route path='/nav1/content2'>
-                            <div>  内容2</div>
+                        <Route path='/nav1/Problem'>
+                            <Problem />
                         </Route>
-                        <Route path='/nav1/content3'>
-                            <div>  内容3</div>
+                        <Route path='/nav1/Itemupload'>
+                            <Itemupload />
                         </Route>
-                        <Route path='/nav1/content4'>
-                            <div>  内容4</div>
+                        <Route path='/nav1/Stuvip'>
+                            <Stuvip />
                         </Route>
-                        <Route path='/nav1/content5'>
-                            <div>  内容5</div>
+                        <Route path='/nav1/WeeklyTable'>
+                            <WeeklyTable />
                         </Route>
-                        <Route path='/nav1/content6'>
-                            <div>  内容6</div>
+                        <Route path='/nav1/Index'>
+                            <Index />
                         </Route>
                         <Route path='/nav1/content7'>
                             <div>  内容7</div>

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.stuvip_content {
+  overflow: hidden;
+}
+.stuvip_content h3 {
+  text-align: center;
+  color: red;
+  font-weight: 800;
+  height: 60px;
+  line-height: 40px;
+  border-bottom: 1px solid #ece4e4;
+}
+.stuvip_content .stuvip_bottom {
+  margin-top: 20px;
+  padding: 40px;
+  border: 1px solid #ccc;
+}
+.stuvip_content .stuvip_bottom .test-name span,
+.stuvip_content .stuvip_bottom .problem-ques span {
+  display: inline-block;
+}
+.stuvip_content .stuvip_bottom .test-name span:nth-child(1),
+.stuvip_content .stuvip_bottom .problem-ques span:nth-child(1) {
+  color: red;
+}
+.stuvip_content .stuvip_bottom .test-name .name,
+.stuvip_content .stuvip_bottom .problem-ques .name {
+  width: 130px;
+  background: #ccc;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.stuvip_content .stuvip_bottom .test-name .ant-input,
+.stuvip_content .stuvip_bottom .problem-ques .ant-input {
+  display: inline-block;
+  width: 400px;
+}
+.stuvip_content .stuvip_bottom .test-name {
+  margin-bottom: 10px;
+}
+.stuvip_content .stuvip_bottom .problem-ques {
+  position: relative;
+  padding-left: 70px;
+}
+.stuvip_content .stuvip_bottom .problem-ques span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.stuvip_content .stuvip_bottom .button_comp {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.stuvip_content .stuvip_bottom .button_comp div {
+  float: left;
+  background: #7ab9f5;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.stuvip_content .stuvip_bottom .button_comp .button_comp_l {
+  margin-right: 20%;
+  margin-left: 10px;
+}
+.stuvip_content .stuvip_bottom .button_comp .button_comp_r {
+  background: #d6cece;
+}
+.stuvip_content .stuvip_bottom .button_comp .button_comp_l:hover {
+  box-shadow: 0 0 0 5px #58c inset;
+  cursor: pointer;
+}
+.stuvip_content .stuvip_bottom .button_comp .button_comp_r:hover {
+  box-shadow: 0 0 0 5px #a39d9d inset;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.problem_content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.problem_content .test-name span,
+.problem_content .problem-ques span {
+  display: inline-block;
+}
+.problem_content .test-name span:nth-child(1),
+.problem_content .problem-ques span:nth-child(1) {
+  color: red;
+}
+.problem_content .test-name .name,
+.problem_content .problem-ques .name {
+  width: 130px;
+  background: #ccc;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.problem_content .test-name .ant-input,
+.problem_content .problem-ques .ant-input {
+  display: inline-block;
+  width: 400px;
+}
+.problem_content .test-name {
+  margin-bottom: 10px;
+}
+.problem_content .problem-ques {
+  position: relative;
+  padding-left: 70px;
+}
+.problem_content .problem-ques span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.problem_content .button_comp {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.problem_content .button_comp div {
+  float: left;
+  background: #7ab9f5;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.problem_content .button_comp .button_comp_l {
+  margin-right: 20%;
+  margin-left: 10px;
+}
+.problem_content .button_comp .button_comp_r {
+  background: #d6cece;
+}
+.problem_content .button_comp .button_comp_l:hover {
+  box-shadow: 0 0 0 5px #58c inset;
+  cursor: pointer;
+}
+.problem_content .button_comp .button_comp_r:hover {
+  box-shadow: 0 0 0 5px #a39d9d inset;
+  cursor: pointer;
+}
