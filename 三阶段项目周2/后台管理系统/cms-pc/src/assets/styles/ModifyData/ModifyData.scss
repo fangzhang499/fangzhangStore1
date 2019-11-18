@@ -1,0 +1,102 @@
+ul,
+li {
+    list-style: none;
+}
+
+.ModifyData_content {
+    .modify-top {
+        height: 100px;
+        border-bottom: 1px solid rgb(235, 229, 229);
+
+        h2,
+        p {
+            text-align: center;
+        }
+
+        h2 {
+            height: 40px;
+            font-size: 30px;
+        }
+    }
+
+    .modify-bottom {
+        padding: 30px 30px;
+
+        .table_top {
+            p {
+                overflow: hidden;
+
+                span,
+                select,
+                input {
+                    display: block;
+                    float: left;
+                }
+
+                span:nth-child(1) {
+                    color: red;
+                    width: 120px;
+                    text-align: right;
+                    padding-right: 10px;
+                }
+
+                span:nth-child(2) {
+                    background: rgb(231, 226, 226);
+                    padding: 5px;
+                    padding-right: 50px;
+                }
+
+                input,
+                select {
+                    border: none;
+                    padding: 5px;
+                    padding-right: 50px;
+                    box-shadow: 0 0 3px 0 #ccc inset;
+                }
+            }
+        }
+
+        .table_bottom {
+            ul {
+                overflow: hidden;
+
+                li {
+                    float: left;
+                    margin-right: 150px;
+                    margin-bottom: 20px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+
+                    span,
+                    select,
+                    input {
+                        display: block;
+                        float: left;
+                    }
+
+                    span:nth-child(1) {
+                        // color: red;
+                        width: 120px;
+                        text-align: right;
+                        padding-right: 10px;
+                    }
+
+                    span:nth-child(2) {
+                        background: rgb(231, 226, 226);
+                        padding: 5px;
+                        padding-right: 50px;
+                    }
+
+                    input,
+                    select {
+                        border: none;
+                        padding: 5px;
+                        padding-right: 50px;
+                        box-shadow: 0 0 3px 0 #ccc inset;
+                    }
+                }
+            }
+
+        }
+    }
+}

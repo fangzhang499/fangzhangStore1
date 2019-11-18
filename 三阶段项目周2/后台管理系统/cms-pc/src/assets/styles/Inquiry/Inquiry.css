@@ -1,0 +1,10 @@
+.ant-table-body {
+  border: 1px solid #f0efef;
+}
+.ant-table-body .ant-table-thead th {
+  box-shadow: 0 0 1px 0 inset;
+  padding: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}

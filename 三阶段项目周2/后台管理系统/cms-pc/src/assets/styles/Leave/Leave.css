@@ -1,0 +1,75 @@
+.test-name span,
+.dataTime span,
+.problem-ques span {
+  display: inline-block;
+}
+.test-name span:nth-child(1),
+.dataTime span:nth-child(1),
+.problem-ques span:nth-child(1) {
+  color: red;
+}
+.test-name .name,
+.test-name .title,
+.dataTime .name,
+.dataTime .title,
+.problem-ques .name,
+.problem-ques .title {
+  width: 130px;
+  background: #ccc;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: none;
+}
+.test-name .ant-input,
+.dataTime .ant-input,
+.problem-ques .ant-input {
+  display: inline-block;
+  width: 400px;
+}
+.test-name {
+  margin-bottom: 10px;
+}
+.dataTime {
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.problem-ques {
+  position: relative;
+  padding-left: 70px;
+}
+.problem-ques span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.button_comp {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.button_comp div {
+  float: left;
+  background: #7ab9f5;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.button_comp .button_comp_l {
+  margin-right: 20%;
+  margin-left: 10px;
+}
+.button_comp .button_comp_r {
+  background: #d6cece;
+}
+.button_comp .button_comp_l:hover {
+  box-shadow: 0 0 0 5px #58c inset;
+  cursor: pointer;
+}
+.button_comp .button_comp_r:hover {
+  box-shadow: 0 0 0 5px #a39d9d inset;
+  cursor: pointer;
+}

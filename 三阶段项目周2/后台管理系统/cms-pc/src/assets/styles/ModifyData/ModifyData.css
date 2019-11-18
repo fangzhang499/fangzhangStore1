@@ -1,0 +1,79 @@
+ul,
+li {
+  list-style: none;
+}
+.ModifyData_content .modify-top {
+  height: 100px;
+  border-bottom: 1px solid #ebe5e5;
+}
+.ModifyData_content .modify-top h2,
+.ModifyData_content .modify-top p {
+  text-align: center;
+}
+.ModifyData_content .modify-top h2 {
+  height: 40px;
+  font-size: 30px;
+}
+.ModifyData_content .modify-bottom {
+  padding: 30px 30px;
+}
+.ModifyData_content .modify-bottom .table_top p {
+  overflow: hidden;
+}
+.ModifyData_content .modify-bottom .table_top p span,
+.ModifyData_content .modify-bottom .table_top p select,
+.ModifyData_content .modify-bottom .table_top p input {
+  display: block;
+  float: left;
+}
+.ModifyData_content .modify-bottom .table_top p span:nth-child(1) {
+  color: red;
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+}
+.ModifyData_content .modify-bottom .table_top p span:nth-child(2) {
+  background: #e7e2e2;
+  padding: 5px;
+  padding-right: 50px;
+}
+.ModifyData_content .modify-bottom .table_top p input,
+.ModifyData_content .modify-bottom .table_top p select {
+  border: none;
+  padding: 5px;
+  padding-right: 50px;
+  box-shadow: 0 0 3px 0 #ccc inset;
+}
+.ModifyData_content .modify-bottom .table_bottom ul {
+  overflow: hidden;
+}
+.ModifyData_content .modify-bottom .table_bottom ul li {
+  float: left;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.ModifyData_content .modify-bottom .table_bottom ul li span,
+.ModifyData_content .modify-bottom .table_bottom ul li select,
+.ModifyData_content .modify-bottom .table_bottom ul li input {
+  display: block;
+  float: left;
+}
+.ModifyData_content .modify-bottom .table_bottom ul li span:nth-child(1) {
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+}
+.ModifyData_content .modify-bottom .table_bottom ul li span:nth-child(2) {
+  background: #e7e2e2;
+  padding: 5px;
+  padding-right: 50px;
+}
+.ModifyData_content .modify-bottom .table_bottom ul li input,
+.ModifyData_content .modify-bottom .table_bottom ul li select {
+  border: none;
+  padding: 5px;
+  padding-right: 50px;
+  box-shadow: 0 0 3px 0 #ccc inset;
+}

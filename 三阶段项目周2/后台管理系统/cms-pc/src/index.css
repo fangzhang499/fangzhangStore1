@@ -5,7 +5,14 @@
 @import './assets/styles/Itemupload/Itemupload.css';
 @import './assets/styles/Stuvip/Stuvip.css';
 @import './assets/styles/Weekly/Weekly.css';
-@import './assets//styles/Index/index.css';
+@import './assets//styles/Index/Index.css';
+@import './assets/styles/MoneyDetail/MoneyDetail.css';
+@import './assets/styles/Evaluate/Evaluate.css';
+@import './assets/styles/Inquiry/Inquiry.css';
+@import './assets/styles/Leave/Leave.css';
+@import './assets//styles//Exam/Exam.css';
+@import './assets/styles/Administrators/Administrators.css';
+@import './assets/styles/ModifyData/ModifyData.css';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -30,4 +37,5 @@ code {
   height: 100%;
   background: url(./assets/logo.png) no-repeat center center;
 }
+
 

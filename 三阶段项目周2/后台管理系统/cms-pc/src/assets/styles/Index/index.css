@@ -1,39 +1,235 @@
 .index_content {
   overflow: hidden;
 }
-.index_content .index_content_l,
-.index_content .index_content_r {
+.index_content .index_content_top {
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+.index_content .index_content_top .gotomodify {
+  display: block;
+  background: #3a87ad;
+  float: right;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  box-sizing: border-box;
+}
+.index_content .Index_content_middle {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.index_content .Index_content_middle .index_content_l,
+.index_content .Index_content_middle .index_content_r {
   float: left;
 }
-.index_content .index_content_l {
+.index_content .Index_content_middle .index_content_l {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 22%;
 }
-.index_content .index_content_l .stu_img {
+.index_content .Index_content_middle .index_content_l .stu_img {
   width: 200px;
   height: 220px;
   border: 1px solid #ccc;
   padding: 10px;
 }
-.index_content .index_content_l .stu_img img {
+.index_content .Index_content_middle .index_content_l .stu_img img {
   border: 1px dashed #ccc;
   display: block;
   width: 100%;
   height: 100%;
 }
-.index_content .index_content_l p {
+.index_content .Index_content_middle .index_content_l p {
   width: 100%;
   color: #fff;
   margin-top: 20px;
   text-align: center;
-  background: linear-gradient(45deg, transparent 24px, #3a87ad 0) bottom right,
-    linear-gradient(135deg, transparent 24px, #3a87ad 0) top right,
-    linear-gradient(45deg, transparent 24px, #3a87ad 0) left bottom,
-    linear-gradient(135deg, transparent 24px, #3a87ad 0) left top;
+  background: #3a87ad;
+  position: relative;
 }
-.index_content .index_content_r {
+.index_content .Index_content_middle .index_content_l p .triangle-left {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 12px solid #fff;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.index_content .Index_content_middle .index_content_l p .triangle-right {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 12px solid #fff;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.index_content .Index_content_middle .index_content_r {
   width: 78%;
-  background: red;
+  padding-left: 40px;
+}
+.index_content .Index_content_middle .index_content_r table {
+  display: block;
+}
+.index_content .Index_content_middle .index_content_r table tr {
+  height: 32px;
+}
+.index_content .Index_content_middle .index_content_r table tr td {
+  border: 1px solid #f1f0f0;
+}
+.index_content .Index_content_middle .index_content_r table tr td:nth-child(1) {
+  width: 10%;
+  text-align: right;
+  padding-right: 10px;
+  color: #336199;
+  background: #e4eef9;
+  border: 1px solid #fff;
+}
+.index_content .Index_content_middle .index_content_r table tr td:nth-child(2) {
+  width: 60%;
+  padding-right: 500px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.index_content .Index_content_bottom div {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.index_content .Index_content_bottom div .headTitle {
+  font-size: 16px;
+  font-weight: 800;
+  color: #393939;
+}
+.index_content .Index_content_bottom div .myMessage {
+  border: 1px solid #ccc;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  color: #393939;
+  background: #e4eef9;
+}
+.index_content .Index_content_bottom div .myMessage p {
+  text-align: center;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+.index_content .Index_content_bottom div .myMessage p:nth-child(1) {
+  flex: 7;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .myMessage p:nth-child(2) {
+  flex: 1;
+  padding: 0px 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .teacherMessage {
+  border: 1px solid #ccc;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  color: #393939;
+  background: #e4eef9;
+}
+.index_content .Index_content_bottom div .teacherMessage p {
+  text-align: center;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+.index_content .Index_content_bottom div .teacherMessage p:nth-child(1) {
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .teacherMessage p:nth-child(2) {
+  flex: 8;
+  padding: 0px 10px;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .teacherMessage p:nth-child(3) {
+  flex: 1;
+  padding: 0px 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .openVip-tr1 {
+  border: 1px solid #ccc;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  color: #393939;
+  background: #e4eef9;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.index_content .Index_content_bottom div .openVip-tr1 p {
+  text-align: center;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+.index_content .Index_content_bottom div .openVip-tr1 p:nth-child(1) {
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .openVip-tr1 p:nth-child(2) {
+  flex: 4;
+  padding: 0px 10px;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .openVip-tr1 p:nth-child(3) {
+  flex: 5;
+  padding: 0px 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .openVip-tr2 {
+  border: 1px solid #ccc;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  color: #393939;
+  background: #fff;
+}
+.index_content .Index_content_bottom div .openVip-tr2 p {
+  text-align: center;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+.index_content .Index_content_bottom div .openVip-tr2 p:nth-child(1) {
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .openVip-tr2 p:nth-child(2) {
+  flex: 4;
+  padding: 0px 10px;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+}
+.index_content .Index_content_bottom div .openVip-tr2 p:nth-child(2) span {
+  display: block;
+}
+.index_content .Index_content_bottom div .openVip-tr2 p:nth-child(3) {
+  flex: 5;
+  padding: 10px 10px;
+  border-right: 1px solid #ccc;
 }

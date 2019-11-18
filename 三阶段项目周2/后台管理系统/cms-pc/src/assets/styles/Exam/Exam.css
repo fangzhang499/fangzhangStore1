@@ -1,0 +1,30 @@
+.Exam_content h1 {
+  height: 60px;
+  font-size: 28px;
+  border-bottom: 1px solid #ccc;
+}
+.Exam_content .Exam_list {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Exam_content .Exam_list .my_item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 520px;
+  position: relative;
+}
+.Exam_content .Exam_list .my_item .defen {
+  position: absolute;
+  font-size: 24px;
+  color: #58c;
+  top: 70px;
+  right: 30px;
+}
+.Exam_content .Exam_list .my_item .defen p {
+  margin: 0;
+  text-align: center;
+}

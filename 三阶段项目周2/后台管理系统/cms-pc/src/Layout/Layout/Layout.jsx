@@ -12,6 +12,15 @@ import Itemupload from '../../components/Itemupload/Itemupload';
 import Stuvip from '../../components/Stuvip/Stuvip';
 import WeeklyTable from '../../components/Weekly/Weekly';
 import Index from '../../components/Index/Index';
+import MoneyDetail from '../../components/MoneyDetail/MoneyDetail';
+import Evaluate from '../../components/Evaluate/Evaluate';
+import Inquiry from '../../components/Inquiry/Inquiry';
+import Leave from '../../components/Leave/Leave';
+import Discipline from '../../components/Discipline/Discipline';
+import Exam from '../../components/Exam/Exam';
+import Administrators from '../../components/Administrators/Administrators';
+import ModifyData from '../../components/Index/MidofyData/ModifyData'
+
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
@@ -40,10 +49,10 @@ const Acontent = () => {
                         <Menu.Item key="4"><Link to="/nav1/Stuvip">VIP</Link></Menu.Item>
                         <Menu.Item key="5"><Link to="/nav1/WeeklyTable">学员周报</Link></Menu.Item>
                         <Menu.Item key="6"><Link to="/nav1/Index">我的资料</Link></Menu.Item>
-                        <Menu.Item key="7"><Link to="/nav1/content7">交费明细</Link></Menu.Item>
-                        <Menu.Item key="8"><Link to="/nav1/content8">参加考试</Link></Menu.Item>
-                        <Menu.Item key="9"><Link to="/nav1/content9">学员评价</Link></Menu.Item>
-                        <Menu.Item key="10"><Link to="/nav1/content10">教学测评</Link></Menu.Item>
+                        <Menu.Item key="7"><Link to="/nav1/MoneyDetail">交费明细</Link></Menu.Item>
+                        <Menu.Item key="8"><Link to="/nav1/Exam">参加考试</Link></Menu.Item>
+                        <Menu.Item key="9"><Link to="/nav1/Evaluate">学员评价</Link></Menu.Item>
+                        <Menu.Item key="10"><Link to="/nav1/Inquiry">教学测评</Link></Menu.Item>
                     </SubMenu>
                     <SubMenu
                         key="sub2"
@@ -54,8 +63,8 @@ const Acontent = () => {
 </span>
                         }
                     >
-                        <Menu.Item key="11"><Link to="/nav1/content11">请假情况</Link></Menu.Item>
-                        <Menu.Item key="12"><Link to="/nav1/content12">违纪情况</Link></Menu.Item>
+                        <Menu.Item key="11"><Link to="/nav1/Leave">请假情况</Link></Menu.Item>
+                        <Menu.Item key="12"><Link to="/nav1/Discipline">违纪情况</Link></Menu.Item>
                     </SubMenu>
                 </Menu>
             </Sider>
@@ -93,23 +102,26 @@ const Acontent = () => {
                         <Route path='/nav1/Index'>
                             <Index />
                         </Route>
-                        <Route path='/nav1/content7'>
-                            <div>  内容7</div>
+                        <Route path='/nav1/MoneyDetail'>
+                            <MoneyDetail />
                         </Route>
-                        <Route path='/nav1/content8'>
-                            <div>  内容8</div>
+                        <Route path='/nav1/Exam'>
+                            <Exam />
                         </Route>
-                        <Route path='/nav1/content9'>
-                            <div>  内容9</div>
+                        <Route path='/nav1/Evaluate'>
+                            <Evaluate />
                         </Route>
-                        <Route path='/nav1/content10'>
-                            <div>  内容10</div>
+                        <Route path='/nav1/Inquiry'>
+                            <Inquiry />
                         </Route>
-                        <Route path='/nav1/content11'>
-                            <div>  内容11</div>
+                        <Route path='/nav1/Leave'>
+                            <Leave />
                         </Route>
-                        <Route path='/nav1/content12'>
-                            <div>  内容12</div>
+                        <Route path='/nav1/Discipline'>
+                            <Discipline />
+                        </Route>
+                        <Route path='/nav1/ModifyData'>
+                            <ModifyData />
                         </Route>
                     </Switch>
                 </Content>
@@ -127,13 +139,15 @@ export default class ALayout extends React.Component {
                         <Menu
                             theme="dark"
                             mode="horizontal"
-                            defaultSelectedKeys={['2']}
+                            defaultSelectedKeys={['1']}
                             style={{ lineHeight: '64px' }}
                         >
                             <Menu.Item key="1"><Link to="/nav1">学员个人中心</Link></Menu.Item>
                             <Menu.Item key="2"><Link to="/nav2">教务系统</Link></Menu.Item>
                             <Menu.Item key="3"><Link to="/nav3">学院简介</Link></Menu.Item>
+                            
                         </Menu>
+                        <Administrators />
                     </Header>
                     <Switch>
                         <R path='/nav1'>
