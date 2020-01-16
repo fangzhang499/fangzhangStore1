@@ -16,7 +16,7 @@ export default class Administrators extends React.Component {
                 </div>
                 <div className="name">
                     <p>
-                        <span>方丈</span>
+                        <span onClick={this.test}>方丈</span>
                         <span className="iconfont icon-xiala" onClick={this.operate.bind(this)}></span>
                     </p>
                     <div className="oprate" style={
@@ -36,6 +36,9 @@ export default class Administrators extends React.Component {
         this.setState({
             showstatus: !this.showstatus
         })
+    }
+    test(){
+        console.log('我就做个测试')
     }
 
 }
