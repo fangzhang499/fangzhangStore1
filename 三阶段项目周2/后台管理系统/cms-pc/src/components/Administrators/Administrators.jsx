@@ -38,7 +38,7 @@ export default class Administrators extends React.Component {
         })
     }
     test(){
-        console.log('我就做个测试')
+        console.log('我就做个测试而已')
     }
 
 }
